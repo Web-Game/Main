@@ -1,0 +1,92 @@
+''
+Roll No. : 
+Problem : Display Error 
+Target User : Me
+Target System : Linux
+Interface : Command Line
+Functional Requirment : two int
+Tested On :16/07/2020 11.38
+Maintained By : Mr. Shaikh Z.M.
+'''
+'''
+# 1
+#print "hello python"
+o/p
+#2
+list = [1,2,3]
+print(list[3])
+o/p
+#3
+import zakir
+o/p
+Traceback (most recent call last):
+  File "C:/Users/Zakir M. Shaikh/Desktop/1.py", line 18, in <module>
+    import zakir
+ModuleNotFoundError: No module named 'zakir'
+#4
+d = {'1':'amit','2':'Sunil','3':'Anil'}#key,value pair
+print(d['4'])
+Traceback (most recent call last):
+  File "C:/Users/Zakir M. Shaikh/Desktop/1.py", line 28, in <module>
+    print(d['4'])
+KeyError: '4'
+#5
+i='2'
+j =3
+print('Total is ',i+j)
+o/p
+Traceback (most recent call last):
+  File "C:/Users/Zakir M. Shaikh/Desktop/1.py", line 36, in <module>
+    print('Total is ',i+j)
+TypeError: can only concatenate str (not "int") to str
+
+ 
+
+#6
+it = iter([1,2,3])
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+o/p
+Traceback (most recent call last):
+  File "C:/Users/Zakir M. Shaikh/Desktop/1.py", line 47, in <module>
+    print(next(it))
+StopIteration
+#7
+print(int('zakir'))
+o/p
+Traceback (most recent call last):
+  File "C:/Users/Zakir M. Shaikh/Desktop/1.py", line 55, in <module>
+    print(int('zakir'))
+ValueError: invalid literal for int() with base 10: 'zakir'
+#8
+print(amit)
+o/p
+Traceback (most recent call last):
+  File "C:/Users/Zakir M. Shaikh/Desktop/1.py", line 62, in <module>
+    print(amit)
+NameError: name 'amit' is not defined
+'''
+#9
+#print(7/0)
+'''
+o/p
+Traceback (most recent call last):
+  File "C:/Users/Zakir M. Shaikh/Desktop/1.py", line 70, in <module>
+    print(7/0)
+ZeroDivisionError: division by zero
+'''
+#10
+i = input('enter your name')
+'''
+o/p : ctrl+c
+Traceback (most recent call last):
+  File "C:/Users/Zakir M. Shaikh/Desktop/1.py", line 79, in <module>
+    i = input('enter your name')
+KeyboardInterrupt
+'''
+#11
+print("amit ")
+
+ 
