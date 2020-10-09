@@ -1,0 +1,15 @@
+1. Two player game (Using Two Dice). Each player has 5 life.
+
+2. Each player has to achieve the respective sum as Player 1 have to achieve Even sum by rolling two dice simultaneously, if he/she will get the sum, he/she will get 1 point each or else loose the 
+    chance & vice versa.
+
+3. Player has one chance to roll the dice a time.
+
+4. If player 1 fail to get even sum then there is 1 point to player 2.
+
+5. If the player fail to roll the dice within 10sec then he will lose the chance and get -1 point and player 2 get the chance to roll the dice.
+    (Optional: If player fail to roll the dice he will lose 1 life.)
+
+6. (Optional: The player who loses all life’s he/she will be looser & other player win the game. Score is not considered here.)
+
+7. The player who reach the target point first, will be the winner.

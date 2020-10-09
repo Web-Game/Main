@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">  
+    <title>Even & Odd Game</title>  
+    <link rel="stylesheet" href="../CSS/Even_&_Odd.css">  
+  </head>
+    
+  <body>
+    <div class="player-1-board active">
+            <div class="player-name" id="name-1">Player 1</div>
+            <div class="player-life-board1" id="life-board-1">
+                <img src="../Images/life1-1.jpg" alt="life" width="30" height="30" class="life1-1" style="float:left;">
+                <img src="../Images/life1-2.jpg" alt="life" width="30" height="30" class="life1-2" style="float:left;">
+                <img src="../Images/life1-3.jpg" alt="life" width="30" height="30" class="life1-3" style="float:left;">
+                <img src="../Images/life1-4.jpg" alt="life" width="30" height="30" class="life1-4" style="float:left;">
+                <img src="../Images/life1-5.jpg" alt="life" width="30" height="30" class="life1-5" style="float:left;">
+            </div>
+           <div class="player-current-number1">Current Score</div>
+            <div class="obtained-number1" id="score-1">00</div>
+            <div class="player-score-box">
+                <div class="player-score-label">Total Score</div>
+                <div class="player-score" id="current-1">0</div>
+            </div>
+        </div>
+            
+        <div class="player-2-board">
+            <div class="player-name" id="name-2">Player 2</div>
+            <div class="player-life-board2" id="life-board-2">
+                <img src="../Images/life2-1.jpg" alt="life" width="30" height="30" class="life2-1" style="float:left;">
+                <img src="../Images/life2-2.jpg" alt="life" width="30" height="30" class="life2-2" style="float:left;">
+                <img src="../Images/life2-3.jpg" alt="life" width="30" height="30" class="life2-3" style="float:left;">
+                <img src="../Images/life2-4.jpg" alt="life" width="30" height="30" class="life2-4" style="float:left;">
+                <img src="../Images/life2-5.jpg" alt="life" width="30" height="30" class="life2-5" style="float:left;">
+            </div>
+            <div class="player-current-number2">Current Score</div>
+            <div class="obtained-number2" id="score-2">00</div>
+            <div class="player-score-box">
+                <div class="player-score-label">Total Score</div>
+                <div class="player-score" id="current-2">0</div>
+            </div>
+        </div>
+      <button class="btn-new">New game</button>
+       
+    
+      <button class="btn-roll" onclick="play()" id="roll"><span style="font-size: 40px;">&#128472;</span></button>
+      <button class="btn-start" onclick="time()" id="start">Start</button>
+  <p class="timer"><span id="countdowntimer">10 </span> sec</p>
+      
+      <button class="btn-reset" id="reset">Reset</button>
+        <button class="btn-set" id="set">Set</button>
+        <button class="btn-default" id="def">Default</button>
+      
+        <button class="btn-how_to_play"><a href="Even_&_Odd_Video.html"><span>&#9650;</span></a></button>
+      <button class="btn-help"><span>&#63;</span></button>
+      <button class="btn-music" onclick="sound()"><span>&#127900;</span></button>
+    
+      
+      <input type="number" placeholder="Target score" class="target-score">
+      
+      <img src="../Images/dice-6.jpg" alt="Dice1" class="dice-6" id="dice6" width="100" height="100">
+      <img src="../Images/dice-2.jpg" alt="Dice2" class="dice-2" id="dice2" width="100" height="100">
+      
+      <script type="text/javascript" src="../JavaScript/Even_&_Odd.js"> </script>
+              
+  </body>    
+</html>

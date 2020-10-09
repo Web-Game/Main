@@ -1,0 +1,354 @@
+/* Custom Fonts */
+
+@font-face {
+	font-family: 'PTSans';
+	src: url('fonts/PT-Sans.eot');
+    src: url('fonts/PT-Sans.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PT-Sans.woff') format('woff'),
+         url('fonts/PT-Sans.ttf') format('truetype'),
+         url('fonts/PT-Sans.svg#pt_sansregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PTSans';
+	src: url('fonts/PT-Sans-Bold.eot');
+    src: url('fonts/PPT-Sans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PT-Sans-Bold.woff') format('woff'),
+         url('fonts/PT-Sans-Bold.ttf') format('truetype'),
+         url('fonts/PT-Sans-Bold.svg#pt_sansbold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PTSans';
+	src: url('fonts/PT-Sans-Italic.eot');
+    src: url('fonts/PPT-Sans-Italic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PT-Sans-Italic.woff') format('woff'),
+         url('fonts/PT-Sans-Italic.ttf') format('truetype'),
+         url('fonts/PT-Sans-Italic.svg#pt_sansitalic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'PTSans';
+	src: url('fonts/PT-Sans-BoldItalic.eot');
+    src: url('fonts/PPT-Sans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PT-Sans-BoldItalic.woff') format('woff'),
+         url('fonts/PT-Sans-BoldItalic.ttf') format('truetype'),
+         url('fonts/PT-Sans-BoldItalic.svg#pt_sansbold_italic') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* End Custom Fonts */
+
+html {
+    background-image: linear-gradient(to bottom right,  #ffff66, #99ff66, #ffff66);  
+    line-height: 1.7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+	padding-left: 10px;
+	box-sizing: border-box;
+    background-image: linear-gradient(to bottom right, #ffffff, #c2d1f0, #ffffff); 
+    background-size: cover;
+    background-position: center;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+    font-family: 'PTSans', Arial, sans-serif;
+	font-size: 15px;
+}
+
+/*** Player Content CSS ***/
+
+.player-name {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    top: -100px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.player-1-board {
+    width: 40%;
+    font-size-adjust: auto;
+    float: left 20px;
+    height: 468px;
+    background-image: linear-gradient(to bottom right, #1a75ff, #99ff66, #1a75ff); 
+    padding: 100px;
+    box-sizing: border-box;
+    display: block;
+    border: 3px;
+}
+
+.player-2-board {
+    width: 40%;
+    font-size-adjust: auto;
+    float: left 20px;
+    margin-top: -467px;
+    margin-left: 550px;
+    background-image: linear-gradient(to bottom right, #1a75ff, #99ff66, #1a75ff); 
+    height: 468px;
+    padding: 100px;
+    box-sizing: border-box;
+    display: block;
+    border: 3px;
+}
+
+.player-obtained-number {
+    text-align: center;
+    font-size: 75px;
+    font-weight: 60;
+    color: #EB4D4D;
+    margin-top: 40px;
+    margin-bottom: 130px;
+}
+
+.player-life-board {
+    display: block;
+    font-weight: 100;
+    margin-top: -120px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.player-score-box {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    letter-spacing: 1px;
+    top: -100px;
+    font-weight: 100;
+    margin-top: 168px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.player-score-label {
+    font-size: 24px;
+}
+
+.player-score {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+/*** Player Content CSS End ***/
+
+/*** Dice CSS Start **/
+
+#dice-1 { top: 100px; }
+
+.dice {
+    position: absolute;
+    left: 50%;
+    margin-top: 130px;
+    transform: translateX(-50%);
+    height: 85px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+
+/*** Dice CSS End ***/
+
+/*** Active Player CSS Starts ***/
+
+.active .player-name { font-weight: 300; }
+
+.active .player-name::after {
+    content: "\2022";
+    font-size: 47px;
+    position: absolute;
+    color: #EB4D4D;
+    top: -14px;
+    right: -15px;
+}
+
+/*** Active Player CSS Ends ***/
+p {
+    margin-top: -300px;
+    margin-left: 435px;
+}
+
+/*** Buttons CSS Start ***/
+
+button {
+    position: absolute;
+    width: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    background-image: linear-gradient(to bottom right, #000000, #ffffff, #000000);
+    padding: 5px;
+    border: 2.2px solid grey;
+    font-family: Lato;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+button:hover {
+    background-color: whitesmoke;
+}
+
+.btn-new { 
+    top: 10px;
+    text-transform: uppercase;
+    border-radius: 12px;
+}
+
+.btn-roll { 
+    top: 362px;
+    margin: 0px 2px;
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+.btn-start {
+    top: 370px;
+    margin: 0px 2px;
+    width: auto;
+    border-radius: 80%;
+    padding: 15px;
+}
+
+.btn-set { 
+    top: 515px;
+    text-transform: uppercase;
+    border-radius: 12px;
+}
+
+.btn-reset { 
+    top: 515px;
+    text-transform: uppercase;
+    margin-left: 120px;
+    border-radius: 12px;
+}
+
+.btn-default { 
+    top: 515px;
+    text-transform: uppercase;
+    margin-left: -120px;
+    border-radius: 12px;
+}
+
+.btn-help {
+    margin-left: -614px;
+    margin-top: 229px;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.btn-how_to_play {
+    margin-left: -633px;
+    margin-top: 272px;
+    border-radius: 100%;
+    height: 44.5px;
+    transform: rotate(90deg);
+    width: auto;
+    font-size: 22px;
+}
+
+.btn-music {
+    margin-left: -615px;
+    margin-top: 318px;
+    border-radius: 100%;
+    height: 44.5px;
+    width: auto;
+    font-size: 25px;
+}
+
+.btn-get {
+    top: 120px;
+    border-radius: 12px;
+}
+
+/*** Buttons CSS Ends ***/
+
+/*** Timer CSS Start ***/
+
+.timer {
+    border-radius: 35px;
+    border-style: inset;
+    width: 90px;
+    text-align: center;
+    margin-left: 417px;
+    background-color: #FFF;
+}
+/*** Timer CSS Ends ***/
+
+/*** Input CSS Start ***/
+
+.STN-1 {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 395px;
+    margin-right: 166px;
+    padding: 10px;
+    left: auto;
+    width: 130px;
+    text-align: center;
+    border-radius: 3px;
+    color: #555;
+    font-size: 13px;
+}
+
+/*** Target Score CSS Starts ***/
+
+.target-score {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 440px;
+    color: #555;
+    font-size: 18px;
+    font-family: 'Lato';
+    text-align: center;
+    padding: 10px;
+    width: 170px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+/*** Target Score CSS Ends ***/
+
+@media screen and (max-width: 767px) {
+    .btn-how_to_play {
+        margin-top: 200px;
+        margin-left: -180px;
+    }
+    .btn-music{
+        margin-top: 300px;
+        margin-left: -180px;
+    }
+    .btn-help{
+        margin-top: 150px;
+        margin-left: -180px;
+    }
+}

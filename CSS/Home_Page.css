@@ -1,0 +1,144 @@
+/* Custom Fonts */
+@font-face {
+	font-family: 'PTSans';
+	src: url('fonts/PT-Sans.eot');
+    src: url('fonts/PT-Sans.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PT-Sans.woff') format('woff'),
+         url('fonts/PT-Sans.ttf') format('truetype'),
+         url('fonts/PT-Sans.svg#pt_sansregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PTSans';
+	src: url('fonts/PT-Sans-Bold.eot');
+    src: url('fonts/PPT-Sans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PT-Sans-Bold.woff') format('woff'),
+         url('fonts/PT-Sans-Bold.ttf') format('truetype'),
+         url('fonts/PT-Sans-Bold.svg#pt_sansbold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PTSans';
+	src: url('fonts/PT-Sans-Italic.eot');
+    src: url('fonts/PPT-Sans-Italic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PT-Sans-Italic.woff') format('woff'),
+         url('fonts/PT-Sans-Italic.ttf') format('truetype'),
+         url('fonts/PT-Sans-Italic.svg#pt_sansitalic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'PTSans';
+	src: url('fonts/PT-Sans-BoldItalic.eot');
+    src: url('fonts/PPT-Sans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PT-Sans-BoldItalic.woff') format('woff'),
+         url('fonts/PT-Sans-BoldItalic.ttf') format('truetype'),
+         url('fonts/PT-Sans-BoldItalic.svg#pt_sansbold_italic') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+/* End Custom Fonts */
+
+/* Heading CSS starts */
+h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 60px;
+}
+/* Heading CSS ends */
+
+/* Body CSS starts */
+body{
+    background-image: linear-gradient(to bottom right, #0066cc, #99ff66,  #0080ff);
+}
+/* Body CSS ends */
+
+/* img tag CSS starts */
+img{
+    height: 400px;
+    width: 240px;
+    border-radius: 12px;
+}
+/* img tag CSS ends */
+
+/* Menu box CSS starts */
+.chase_target{
+    margin-left: 110px;
+    height: 400px;
+    width: 240px;
+}
+
+.num_achieve{
+    height: 400px;
+    width: 240px;
+    margin-top: -400px;
+    margin-left: 473px;               
+} 
+
+.even_odd{
+    height: 400px;
+    width: 240px;
+    margin-top: -400px;
+    margin-left: 856px;               
+}
+/* Menu box CSS ends */
+
+/* Menu lable CSS starts */
+.lable-1{
+    width: 241px;
+    height: 45px;
+    margin-left: -1px;
+    margin-top: -49px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: black;
+    position: relative;
+    text-decoration-color: azure;
+}
+
+.lable-2{
+    width: 240px;
+    height: 45px;
+    margin-left: 0px;
+    margin-top: -49px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 12px;
+    background-color: black;
+    position: relative;
+    text-decoration-color: azure;
+}
+
+.lable-3{
+    width: 240px;
+    height: 45px;
+    margin-left: 0px;
+    margin-top: -49px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 12px;
+    background-color: black;
+    position: relative;
+    text-decoration-color: azure;
+}
+/* Menu lable CSS ends */
+
+/* hover effect CSS starts */
+.lable-1:hover{
+    background-color: azure;
+}
+
+.lable-2:hover{
+    background-color: azure;
+}
+
+.lable-3:hover{
+    background-color: azure;
+}
+/* hover effect CSS ends */

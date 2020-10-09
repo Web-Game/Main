@@ -1,0 +1,15 @@
+1. Two player game (Using Two Dice). Each player has 5 life.
+
+2. Player has to decide the target score points and Danger Number (DN: It must be greater than 2 and less than 12).
+ 
+3. Each player has to roll the dice sum of numbers on the dice will be recorded.
+ 
+4. If the sum of numbers on the dice is equal to DN then he/she will loses their points by -5 points.
+
+5. If the player get same numbers on both the dice, then he/she will lose the chance and 1 life and no score will be updated.
+
+6. Player has only one chance to roll the dice at a time.
+
+7. If the player fail to roll the dice within 10sec then he/she will loses one life, if he/she loses all of its life then the other player will be the winner.
+   
+8. The player who reach the target score point 1st he/she will be the winner.  

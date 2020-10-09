@@ -1,0 +1,15 @@
+1. This is the two player game (Using One Dice), each player has 5 life-lines.
+ 
+2. Player's has to set their "Set Target Number(STN)" before start of game using "Get STN" button and after that they had to set their target points.
+
+3. If he/she got the STN, then he/she will score +5 points.
+
+4. In all other cases he/she will score 0 points.
+
+5. Each player has one chance to roll the dice a time.
+
+6. If the player fail to roll the dice within 10sec, then he/she will loose one life-line & score updated with -2 points.
+
+7. The player who loses all life-line’s first he/she will be looser & other player will win the game. Score is not considered in this case.
+
+8. The player who reach the target point first, will be the winner.

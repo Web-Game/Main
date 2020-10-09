@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <meta charset="UTF-8">  
+        <link rel="stylesheet" href="../CSS/Number_Achievement.css">
+        <title>Number Achievement Game</title>
+    </head>
+
+    <body>
+        
+        <div class="player-1-board active">
+            <div class="player-name" id="name-1">Player 1</div>
+            <div class="player-life-board" id="life-board-1">
+                <img src="../Images/life1-1.jpg" alt="life" width="20" height="20" class="life1-1" style="float:left;">
+                <img src="../Images/life1-2.jpg" alt="life" width="20" height="20" class="life1-2" style="float:left;">
+                <img src="../Images/life1-3.jpg" alt="life" width="20" height="20" class="life1-3" style="float:left;">
+                <img src="../Images/life1-4.jpg" alt="life" width="20" height="20" class="life1-4" style="float:left;">
+                <img src="../Images/life1-5.jpg" alt="life" width="20" height="20" class="life1-5" style="float:left;">
+            </div>
+            <div class="player-obtained-number" id="score-1">00</div>
+            <div class="player-score-box">
+                <div class="player-score-label">Current Score</div>
+                <div class="player-score" id="current-1">0</div>
+            </div>
+        </div>
+            
+        <div class="player-2-board">
+            <div class="player-name" id="name-2">Player 2</div>
+            <div class="player-life-board" id="life-board-2">
+                <img src="../Images/life2-1.jpg" alt="life" width="20" height="20" class="life2-1" style="float:left;">
+                <img src="../Images/life2-2.jpg" alt="life" width="20" height="20" class="life2-2" style="float:left;">
+                <img src="../Images/life2-3.jpg" alt="life" width="20" height="20" class="life2-3" style="float:left;">
+                <img src="../Images/life2-4.jpg" alt="life" width="20" height="20" class="life2-4" style="float:left;">
+                <img src="../Images/life2-5.jpg" alt="life" width="20" height="20" class="life2-5" style="float:left;">
+            </div>
+            <div class="player-obtained-number" id="score-2">00</div>
+            <div class="player-score-box">
+                <div class="player-score-label">Current Score</div>
+                <div class="player-score" id="current-2">0</div>
+            </div>
+        </div>
+           
+        <p class="timer"><span id="countdowntimer">10 </span> sec</p>
+        <button class="btn-new">New game</button>
+        <button class="btn-roll" onclick="play()" id="roll"><span style="font-size: 40px;">&#128472;</span></button> 
+        <button class="btn-start" onclick="time()" id="start">Start</button>
+        
+        <button class="btn-reset" id="reset">Reset</button>
+        <button class="btn-set" id="set">Set</button>
+        <button class="btn-default" id="def">Default</button>
+        
+        <button class="btn-music" onclick="sound()"><span style="font-size: 25px;">&#127900;</span></button>
+        <button class="btn-how_to_play"><a href="Number_Achievement_Video.html"><span>&#9650;</span></a></button>
+        <button class="btn-help"><span>&#63;</span></button>
+        <button class="btn-get" id="get-stn">Get STN</button>
+        
+        <div class="inputs">
+            <input type="text" placeholder="STN" class="STN-1" id="num" onclick="disable()">
+        </div>
+        
+        <input type="number" placeholder="Target score" class="target-score">
+        
+        <img src="../Images/dice-1.png" alt="Dice" class="dice" id="dice-1">
+        
+        <script type="text/javascript" src="../JavaScript/Number_Achievement.js"> </script>
+        
+    </body>
+    
+</html>
