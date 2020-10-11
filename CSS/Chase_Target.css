@@ -57,12 +57,14 @@ body{
     margin-right: auto;
     padding-top: 30px;
     padding-left: 25px;
-    height: 700px;
-    background-image: linear-gradient(to bottom right, #ffffff, #c2d1f0, #ffffff); 
     box-sizing: border-box;
+    background-image: linear-gradient(to bottom right, #ffffff, #c2d1f0, #ffffff); 
+   background-size: cover;
     background-position: center;
     font-weight: 20%;
-    letter-spacing: 1px;
+    position: relative;
+    height: 700px;
+    font-size: 20px;
 }
 
 /*** Player Content CSS ***/
@@ -306,7 +308,7 @@ button:hover {
 
 .timer{
     width: 100px;
-    height: 30px;
+    height: 35px;
     text-align: center;
     background-color: #fff;
     margin-left: 545px;
@@ -325,7 +327,7 @@ button:hover {
      position: absolute;
      height: 140px;
     width: 140px;
-    right: 615px;
+    right: 635px;
     margin-top: 20px;
 }
 
@@ -333,7 +335,7 @@ button:hover {
      position: absolute;
      height: 140px;
      width: 140px; 
-     left: 610px;
+     left: 630px;
      margin-top:20px;  
     
 }
