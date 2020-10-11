@@ -57,12 +57,15 @@ body{
     margin-right: auto;
     padding-top: 30px;
     padding-left: 25px;
-    height: 700px;
+    box-sizing: border-box;
     background-image: linear-gradient(to bottom right, #ffffff, #c2d1f0, #ffffff); 
+    background-size: cover;
+    background-position: center;
     box-sizing: border-box;
     background-position: center;
     font-weight: 20%;
-    letter-spacing: 1px;
+    position: relative;
+    height: 700px;
 }
 
 /*** Player Content CSS ***/
@@ -195,9 +198,9 @@ button {
     left: 50%;
     transform: translateX(-50%);
     padding: 8px;
-    background-image: linear-gradient(to bottom right, #000000, #ffffff, #000000);
     border: 2.2px solid grey;
     font-size:18px;
+    background-image: linear-gradient(to bottom right, #000000, #ffffff, #000000);
     cursor: pointer;  
 }
 
@@ -303,7 +306,7 @@ button:hover {
     position: absolute;
     height: 140px;
     width: 140px;
-    right: 615px;
+    right: 635px;
     margin-top: 30px;
 }
 
@@ -311,7 +314,7 @@ button:hover {
      position: absolute;
      height: 140px;
      width: 140px; 
-     left: 610px;
+     left: 630px;
      margin-top:30px;  
 }
 
