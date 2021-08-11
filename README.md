@@ -1,3 +1,1 @@
-The Web Game project is done by @Ramanandm14 and @Pranotip16. This project contain the various types of dice games which can be played with either single dice or double dice offline but its now available to play online, on the web.
-
-The Web Game repository is contain every code related to this project. This repository contain all the .html files, .css files and .js files related to the game. All the images, videos and music added in this project are right availble here.
+The Web Game project is done by @Ramanandm14 and @Pranotip16. This project mainly focus on simple basic ideas of the games with the help of dice. These games which can be played with either single dice or double dice online, on the website https://dicegames12.netlify.app/. This repository contains all source code files.
